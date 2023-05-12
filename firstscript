@@ -1,0 +1,20 @@
+#!/bin/bash
+# Author: Veysel Ors
+# Date Created: 05/11/2023
+# Description: This script will run basic linux tasks.
+
+echo
+echo This script will run a few basics tasks in the order of pwd, ls, whoami, date, cal and create four files named Ali, Vera, Figen, Veysel
+echo
+pwd
+echo
+ls
+echo
+whoami
+echo
+date
+echo
+cal
+echo
+touch Ali Vera Figen Veysel
+echo End of Script

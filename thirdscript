@@ -7,4 +7,4 @@ User="Veysel Ors"
 Role="DevOps Engineer"
 Company="Ors IT Solutions"
 
-echo "This is $User from $Company. $User is a $Role at the $Company."
+echo "This is $User from $Company. $User is a $Role at the $Company company."

@@ -1,0 +1,9 @@
+#!/bin/bash
+# Author: Veysel Ors
+# Date Created: 05/11/2023
+# Description: This script will output "Hello World from California, USA" on the screen.
+# Date Modified: 05/11/2023
+
+echo
+echo "Hello World from California, USA"
+echo

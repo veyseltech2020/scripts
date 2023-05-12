@@ -1,0 +1,29 @@
+#!/bin/bash
+# Author: Veysel Ors
+# Date Created: 05/11/2023
+# Description: This script will run some basic administration tasks as follows; top, df -h, free -m, uptime, iostat.
+
+echo
+echo This are the basic administrative commands.
+echo
+echo the "top" command prints information about the CPU and MEMORY usage
+echo
+top | head -10
+echo
+echo the "df -h" command checks the disk space
+echo
+df -h
+echo
+echo the "free -m" command checks the memory
+echo
+free -m
+echo
+echo the "uptime" command tells when the was the last time system reboot and system load
+echo
+uptime
+echo
+echo the "iostat" command inputs input/output statistics
+echo
+iostat
+echo
+echo End of the Script
