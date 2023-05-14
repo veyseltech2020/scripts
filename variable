@@ -1,0 +1,25 @@
+#!/bin/bash
+# Author: Veysel Ors
+# Date Created: 05/13/2023
+# Description: This script will run commands that are defined in the variables.
+
+# Variables
+
+wh=whoami
+p=pwd
+l=ls
+d=date
+c='cal 2023'
+
+echo Beginning of the script
+echo
+$wh
+echo
+$p
+echo
+$l
+echo
+$d
+echo
+$c
+echo End of Script
