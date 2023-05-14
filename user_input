@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# Author: Veysel Ors
+# Date Created: 05/13/2023
+# Description: This script will get the values of the variables from the user and use it in the conversation.
+
+echo Hello, my name is Veysel Ors
+echo
+echo What is your name?
+read user_name
+echo
+echo Hello $user_name, how are you doing?
+read feeling
+echo
+echo Where are you from?
+echo
+read I am from country
+echo
+echo $country is an amazing country.
+echo
+echo End of script
