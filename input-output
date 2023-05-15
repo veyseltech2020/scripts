@@ -1,0 +1,37 @@
+#!/bin/bash
+
+# Author: Veysel Ors
+# Date Created: 05/13/2023
+# Description: This script will get the values of the variables from the user and use it in the conversation.
+
+name=`whoami`
+owner=Veysel
+job="DevOps Engineer"
+company="Ors IT Solutions"
+echo Hi, welcome to my $name ubuntu machine.
+echo
+echo My name is $owner. I am $job at the $company company.
+echo
+echo What is your name?
+read user_name
+echo
+echo Where do you work?
+read work
+echo
+echo Who is your boss?
+read boss
+echo
+echo What is your profession?
+read profession
+echo
+echo Hi, $user_name 
+echo
+echo $work is an amazing company.
+echo
+echo $boss is very kind person.
+echo
+echo $profession role needs an attention all the time.
+echo
+echo All the best in your carrier at $work as $profession.
+echo
+echo End of script

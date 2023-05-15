@@ -1,0 +1,23 @@
+#!/bin/bash
+
+# Author: Veysel Ors
+# Date Created: 05/14/2023
+# Description: This script is an example of if-else statement.
+
+# The following script will output the then condition.
+count=100
+if [ $count -eq 100 ]
+then
+  echo Count is 100
+else
+  echo Count is not 100
+fi
+
+# The following script will output the else condition.
+# count=20
+# if [ $count -eq 100 ]
+# then
+#  echo Count is 100
+# else
+#  echo Sorry! The count is not 100. It is $count.
+# fi

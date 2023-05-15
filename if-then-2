@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Author: Veysel Ors
+# Date Created: 05/14/2023
+# Description: This script will check today is Monday or not.
+
+a=`date | awk '{print $1}'`
+
+if [ "$a" == Mon ]
+then
+  echo Today is $a
+else
+  echo Today is not Monday
+fi
