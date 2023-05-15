@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Author: Veysel Ors
+# Date Created: 05/14/2023
+# Description: This script will clear the screen first and then check a file exist or not.
+
+clear
+if [ -e /home/veyseltech2020/scripts/error.txt ]
+then
+  echo "File exist"
+else
+  echo "File does not exist"
+fi

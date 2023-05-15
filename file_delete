@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Author: Veysel Ors
+# Date Created: 05/14/2023
+# Description: This script deletes a single file.
+
+if [ ! -f /home/veyseltech2020/scripts/error.txt ]
+then
+  echo "File does not exist. Skipping..."
+else
+  rm -rf /home/veyseltech2020/scripts/error.txt
+  echo
+  echo File deleted.
+fi

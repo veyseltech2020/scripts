@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Author: Veysel Ors
+# Date Created: 05/14/2023
+# Description: This script will check the Mothers' Day.
+
+a=`date | awk '{print $1, $2, $3}'`
+b="Mothers' Day"
+
+if [ "$a" == "Sun May 14" ]
+then
+  echo Today is $b. Happy $b to all Moms in the world.
+else
+  echo Today is not $b.
+fi

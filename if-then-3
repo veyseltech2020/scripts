@@ -1,0 +1,30 @@
+#!/bin/bash
+
+# Author: Veysel Ors
+# Date Created: 05/14/2023
+# Description: This script will ask question to users, and then output the statement according to the users' answers.
+
+clear
+echo
+echo "What is your name?"
+echo
+read user_name
+echo
+
+echo Hello $user_name
+echo
+
+echo "Do you like working in IT? (y/n)"
+read opinion
+echo
+
+if [ "$opinion" == y ]
+then
+echo You are cool
+echo
+
+elif [ "$opinion" == n ]
+then
+echo You should try IT, it’s a good field
+echo
+fi
